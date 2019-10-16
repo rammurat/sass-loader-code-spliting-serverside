@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-htpNat dgTzMT"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm-12 col-md-3 col-lg-3"
+      >
+        <div>
+          <form
+            className="filter-form"
+          >
+            <h1>
+              Filters:
+            </h1>
+            <div
+              className="form-group"
+            >
+              <label
+                htmlFor="language-type"
+              >
+                Language Type:
+              </label>
+              <select
+                className="form-control"
+                id="language-type"
+                name="language-type"
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="form-group"
+            >
+              <label
+                htmlFor="sort-by"
+              >
+                Sort by stars:
+              </label>
+              <select
+                className="form-control"
+                id="sort-by"
+                name="sort-by"
+                onChange={[Function]}
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div
+        className="col-sm-12 col-md-9 col-lg-9"
+      >
+        <div
+          className="sc-bdVaJa fmcpco"
+        >
+          <form
+            className="form-inline"
+            onSubmit={[Function]}
+          >
+            <div
+              className="form-group mx-sm-3 mb-2"
+            >
+              <label
+                className="sr-only"
+              >
+                Password
+              </label>
+              <input
+                className="form-control"
+                id="search"
+                name="search"
+                onChange={[Function]}
+                placeholder="JavaScript"
+                type="text"
+                value=""
+              />
+            </div>
+            <button
+              className="btn btn-primary mb-2"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+        <div
+          className="product-list"
+        >
+          <div
+            className="row justify-content-end"
+          >
+            <div
+              className="col-sm-12 col-md-6 col-lg-6"
+            />
+            <div
+              className="col-sm-12 col-md-6 col-lg-6"
+            >
+              <nav
+                aria-label="Page navigation example"
+                className="product-pagination "
+              >
+                <ul
+                  className="pagination"
+                >
+                  <li
+                    className="page-item"
+                  >
+                    <a
+                      className="page-link"
+                      href="#"
+                    >
+                      Previous
+                    </a>
+                  </li>
+                  <li
+                    className="page-item"
+                  >
+                    <a
+                      className="page-link"
+                      href="#"
+                    >
+                      1
+                    </a>
+                  </li>
+                  <li
+                    className="page-item"
+                  >
+                    <a
+                      className="page-link"
+                      href="#"
+                    >
+                      2
+                    </a>
+                  </li>
+                  <li
+                    className="page-item"
+                  >
+                    <a
+                      className="page-link"
+                      href="#"
+                    >
+                      3
+                    </a>
+                  </li>
+                  <li
+                    className="page-item"
+                  >
+                    <a
+                      className="page-link"
+                      href="#"
+                    >
+                      Next
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

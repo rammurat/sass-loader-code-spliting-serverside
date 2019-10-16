@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bdVaJa fmcpco"
+>
+  <form
+    className="form-inline"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group mx-sm-3 mb-2"
+    >
+      <label
+        className="sr-only"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="search"
+        name="search"
+        onChange={[Function]}
+        placeholder="JavaScript"
+        type="text"
+        value=""
+      />
+    </div>
+    <button
+      className="btn btn-primary mb-2"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</div>
+`;
