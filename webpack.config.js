@@ -55,7 +55,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx']
+    extensions: ['*', '.js', '.jsx', '.scss']
   },
   optimization: {
     splitChunks: {
@@ -81,8 +81,9 @@ module.exports = {
     new CleanWebpackPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      inject: false,
+      inject: true,
       hash: true,
+      filename: 'index.html',
       template: './src/index.html' // default template to load any static/dynamic page using webpack html plugin
     }),
     new WebpackMd5Hash(),
